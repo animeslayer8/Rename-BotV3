@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @Katsuki_warlord
 
 from configs import Config
 from .database import db
