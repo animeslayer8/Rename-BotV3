@@ -12,14 +12,14 @@ logging.basicConfig(
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", "7165358"))
+    API_HASH = os.environ.get("API_HASH", "304228f1dc7b9c86ef1c8d83cdc5da85")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5847143920:AAHYjXBBrv-_ldhdMNgxsKxj1_NsQW9a4lg")
     DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "./downloads")
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
-    PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 6014086787))
+    PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "6014086787").split()))
     PRO_USERS.append(OWNER_ID)
-    MONGODB_URI = os.environ.get("MONGODB_URI", "")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-100"))
+    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001967125065"))
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
